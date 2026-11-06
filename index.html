@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Игра в Домино</meta>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="score-board">
+            <div class="player-info">
+                <h2>Вы</h2>
+                <div id="player-count" class="bone-count">7</div>
+            </div>
+            <div class="player-info">
+                <h2>Компьютер</h2>
+                <div id="computer-count" class="bone-count">7</div>
+            </div>
+        </div>
+
+        <div class="board-area">
+            <div id="boneyard" class="boneyard"></div>
+            <div id="board"></div>
+        </div>
+
+        <div class="player-hand">
+            <h3>Ваша рука</h3>
+            <div id="player-hand"></div>
+        </div>
+
+        <div class="controls">
+            <button id="draw-btn" class="action-btn">Брать кость</button>
+            <button id="pass-btn" class="action-btn">Пас</button>
+        </div>
+
+        <div id="status" class="status"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
